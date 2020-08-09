@@ -14,8 +14,8 @@ const Header = (props) => {
         <nav className="headerNav">        
               <ul className="navigation">            
                 <li><Link to="/">Home</Link></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><Link to="/">About</Link></li>
+                <li><Link to="/">Contact</Link></li>
               </ul>
               
               <div className="headerCart">
@@ -26,7 +26,7 @@ const Header = (props) => {
                       <p className="total">{props.total}</p>                      
                     </div>
                     <div id="carrito">
-                      <img src={shoppingCart} className="cart-img" />
+                      <img src={shoppingCart} className="cart-img" alt="shoppingCart"/>
                       <Link to="/cart" id="show-cart" className="showEmpty">Show Cart</Link>
                       <button onClick={props.clearCart} id="delete-cart" className="showEmpty">Empty Cart</button>                                   
                     </div>
