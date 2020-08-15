@@ -3,7 +3,7 @@ import './header.css';
 import { connect } from 'react-redux';
 import { getNumber } from '../../actions/getAction';
 import { clearCart } from '../../actions/clearCart';
-import { Link } from 'react-router-dom';
+
 
 const Header = (props) => { 
   console.log(props, "Desde el header") 
