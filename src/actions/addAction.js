@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from './types';
+/*import { ADD_TO_CART } from './types';
 
 export const addToCart = (product) => {
     return (dispatch) => {
@@ -8,4 +8,4 @@ export const addToCart = (product) => {
             payload: product
         })
     }
-}
+}*/

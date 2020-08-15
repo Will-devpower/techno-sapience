@@ -1,4 +1,4 @@
-import { CLEAR_CART } from './types';
+/*import { CLEAR_CART } from './types';
 
 export const clearCart = () => {
     return (dispatch) => {
@@ -7,4 +7,4 @@ export const clearCart = () => {
             type: CLEAR_CART
         })
     }
-}
+}*/

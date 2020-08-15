@@ -1,4 +1,4 @@
-import { GET_COUNTER } from './types'  
+/*import { GET_COUNTER } from './types'  
 
 export const getNumber = () => {
     return (dispatch) => {
@@ -7,4 +7,4 @@ export const getNumber = () => {
             type: GET_COUNTER
         })
     }
-}
+}*/

@@ -1,4 +1,4 @@
-import { DELETE_ITEM } from './types';
+/*import { DELETE_ITEM } from './types';
 
 export const deleteItem = (product) => {
     return (dispatch) => {
@@ -8,4 +8,4 @@ export const deleteItem = (product) => {
             payload: product
         })
     }
-}
+}*/
