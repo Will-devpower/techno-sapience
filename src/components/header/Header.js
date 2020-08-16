@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import logo from '../../images/logo.png';
 import { connect } from 'react-redux';
 import { getNumber } from '../../actions/getAction';
 import { clearCart } from '../../actions/clearCart';
