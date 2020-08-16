@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+#header {
+	background: url(../../images/bg-home.png) no-repeat scroll center top #000000;
+  	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+  	z-index: 3;
+	height: 100vh;	
+}
+.top-header {
+	background: url(../../images/bg-transparent1.png) repeat;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	min-height: 80px;
+	position: fixed;
+	top: 0;
+	padding-left: 50px;	
+}
+#navigation {	
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	width: 50%;	
+}
+#navigation li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+}
+h1 {
+	color: #fff;
+}
+.logo {
+	text-decoration: none;
+}
+.primary, .secondary {
+	display: none;
+}
+.menu:hover .primary {
+	display: block;
+	position: absolute;
+	list-style: none;
+}
