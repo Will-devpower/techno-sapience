@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import { connect } from 'react-redux';
-import { addToCart } from '../../actions/addAction';
 import  FirstSection  from '../firstSection';
 import './home.css';
 import SecondSection from '../secondSection';
