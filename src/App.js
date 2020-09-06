@@ -4,13 +4,12 @@ import { Provider } from 'react-redux';
 import './App.css';
 import Header from './components/header/Header';
 import Home  from './components/home';
-import Cart from './components/cart'
+import PostDetail from './components/post'
 
 import store from './store.js'
 
 
-function App() {
-  console.log(store.getState( ))
+function App() {  
   return (
     <Provider store={store}>
       <div className="App">
@@ -18,7 +17,8 @@ function App() {
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/cart" component={Cart} />
+            <Route exact path="/post/:postId" component={PostDetail} />
+            
           </Switch>          
         </BrowserRouter>      
       </div>

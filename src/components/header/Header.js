@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import logo from '../../images/ts-logo.png'
 import { connect } from 'react-redux';
 import { getNumber } from '../../actions/getAction';
 import { clearCart } from '../../actions/clearCart';
@@ -12,32 +13,42 @@ const Header = (props) => {
       <div id="header">
 		  <div className="nav-header">
 		  	<div className="top-header">
-				<Link to="/" className="logo"><h1>Techno Sapience</h1></Link>
+				<Link to="/"><img src={logo} alt="" className="logo"/></Link>
+				<input type="checkbox" id="toggle"/>
+				<ul className="hamburguer">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
 				<ul id="navigation">
 					<li className="selected">
-						<Link to="/">Home</Link>
+						<Link to="/">HOME</Link>
 					</li>
 					<li>
-						<Link to="/">About</Link>
+						<Link to="/">GADGETS</Link>
 					</li>
 					<li className="menu">
-						<Link to="/">Projects</Link>
+						<Link to="/">NEWS</Link>
 						<ul className="primary">
 							<li>
-								<Link to="/">proj 1</Link>
+								<Link to="/" className="sub-menu">proj 1</Link>
+							</li>
+							<li>
+								<Link to="/" className="sub-menu">proj 2</Link>
+							</li>
+							<li>
+								<Link to="/" className="sub-menu">proj 3</Link>
+							</li>
+							<li>
+								<Link to="/" className="sub-menu">proj 4</Link>
 							</li>
 						</ul>
 					</li>
 					<li className="menu">
-						<Link to="/">Blog</Link>
-						<ul className="primary">
-							<li>
-								<Link to="/">Single post</Link>
-							</li>
-						</ul>
+						<Link to="/">REVIEWS</Link>						
 					</li>
 					<li>
-						<Link to="/">Contact</Link>
+						<Link to="/">CONTACT</Link>
 					</li>
 				</ul>
 			</div>

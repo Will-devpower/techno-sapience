@@ -1,0 +1,10 @@
+.postContainer {
+    background: inherit;
+    text-align: center;
+}
+.postTitle {
+    color: #000;
+}
+.postImage {
+    width: 400px;
+}
