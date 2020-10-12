@@ -1,0 +1,9 @@
+.project-list a {
+    text-decoration: none;
+    color: #000;
+}
+.project-list a:hover {
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    font-size: 1.01rem ;
+}

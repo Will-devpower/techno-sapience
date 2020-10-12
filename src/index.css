@@ -1,13 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Share Tech", sans-serif !important;
+  
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  height: 100vh;
+  font-family: "Share Tech", sans-serif !important;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;   
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+form button,
+form h5 {
+  margin: 20px 0;
+}
+.post-list-management {
+  margin-top: 50px;  
+}
+.post-list-management h2 {
+  text-align: center;
+}
+.post-list-management a {
+  color: #000 !important;
+}
+.material-icons:hover {
+  cursor: pointer;
+  color: rgb(102, 104, 1);
 }
