@@ -59,8 +59,12 @@ const CreatePost = (props) => {
   
   useEffect(() => {
     getPosts();
-    currentId === "" ? setValues({ ...initialState }) : getPostById(currentId);
-  }, [currentId, initialState]);
+    if(currentId !== ""){
+      return getPostById(currentId)
+    }else {
+      return null
+    }
+  });
   return (
     <div className="container">
       <div className="row post-list-management">

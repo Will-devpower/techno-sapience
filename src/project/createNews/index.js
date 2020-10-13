@@ -54,8 +54,12 @@ const CreateNews = (props) => {
   
   useEffect(() => {
     getNews();
-    currentId === "" ? setValues({ ...initialState }) : getNewById(currentId);
-  }, [currentId, initialState]);
+    if(currentId !== "") {
+      return getNewById(currentId);
+    }else {
+      return null
+    } 
+  });
   return (
     <div className="container">
       <div className="row post-list-management">
