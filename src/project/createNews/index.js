@@ -54,12 +54,13 @@ const CreateNews = (props) => {
   
   useEffect(() => {
     getNews();
-    if(currentId !== "") {
-      return getNewById(currentId);
+    if(currentId === "") {
+      setValues(initialState)       
     }else {
-      return null
+      getNewById(currentId);
     } 
-  });
+  // eslint-disable-next-line react-hooks/exhaustive-deps  
+  },[currentId]);
   return (
     <div className="container">
       <div className="row post-list-management">

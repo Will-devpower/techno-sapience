@@ -35,13 +35,13 @@ function App(props) {
           <PrivateRoute exact path="/">
             <Dashboard />
           </PrivateRoute>
-          <PrivateRoute exact path="/create">
+          <PrivateRoute exact path="/war-create">
             <CreatePost />
           </PrivateRoute>
-          <PrivateRoute exact path="/create-news">
+          <PrivateRoute exact path="/war-create-news">
             <CreateNews />
           </PrivateRoute>
-          <PrivateRoute exact path="/admin">
+          <PrivateRoute exact path="/war-admin">
             <AdminPanel />
           </PrivateRoute>
           <PrivateRoute exact path="/project/:id">
@@ -50,10 +50,10 @@ function App(props) {
           <PrivateRoute exact path="/news/:id">
             <NewsDetails />
           </PrivateRoute>
-          <PrivateRoute  redirectTo="/" exact path="/signin">
+          <PrivateRoute  redirectTo="/" exact path="/war-signin">
             <SignIn />
           </PrivateRoute>
-          <PrivateRoute  redirectTo="/" exact path="/signup">
+          <PrivateRoute  redirectTo="/" exact path="/war-signup">
             <SignUp />
           </PrivateRoute>
           <PrivateRoute exact path="/gadgets">

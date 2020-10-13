@@ -35,8 +35,8 @@ const Navbar = (props) => {
         {
           auth.uid &&  
           <div className="admin">
-            <Link to="/admin">Admin</Link>
-            <Link to="/signin" onClick={props.logOut}>Logout</Link>
+            <Link to="/war-admin">Admin</Link>
+            <Link to="/war-signin" onClick={props.logOut}>Logout</Link>
             <p className="initials">{initials}</p>
           </div>
         } 

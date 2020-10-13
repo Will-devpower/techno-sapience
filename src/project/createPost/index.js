@@ -59,12 +59,13 @@ const CreatePost = (props) => {
   
   useEffect(() => {
     getPosts();
-    if(currentId !== ""){
-      return getPostById(currentId)
+    if(currentId === ""){
+       setValues(initialState)
     }else {
-      return null
+      getPostById(currentId)
     }
-  });
+  // eslint-disable-next-line react-hooks/exhaustive-deps  
+  }, [currentId]);
   return (
     <div className="container">
       <div className="row post-list-management">

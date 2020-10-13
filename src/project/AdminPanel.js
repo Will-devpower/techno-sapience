@@ -7,10 +7,10 @@ const AdminPanel = (props) => {
     <div className="container-fluid admin-panel">
       <div className="row p-4">
         <div className="col-md-6 text-center card pt-5">
-          <Link to="/create" className="admin-panel-link">Create or Edit Post</Link>
+          <Link to="/war-create" className="admin-panel-link">Create or Edit Post</Link>
         </div>
         <div className="col-md-6 text-center card pt-5">
-          <Link to="/create-news" className="admin-panel-link">Create or Edit a Single New</Link>
+          <Link to="/war-create-news" className="admin-panel-link">Create or Edit a Single New</Link>
         </div>
       </div>
     </div>
