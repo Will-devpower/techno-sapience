@@ -7,6 +7,10 @@ nav {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/TS%20BGC%202.png?alt=media&token=3e4ecc87-0e5a-4d73-842d-33c5f5af58ec");
   background-repeat: no-repeat;
 }
+.my-logo-img {
+  height: 40px;
+  width: 130px;
+}
 nav button {
   border: none !important;
 }
