@@ -38,7 +38,9 @@ function ProjectDetails(props) {
         {/* SideBar Starts here */}
 
         <div className="col-12 col-md-4 sidebar">
-          <div className="mt-3 anuncio text-dark">SideBar</div>
+          <div className="mt-3 anuncio text-dark">
+            <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/RocketBanner2.jpg?alt=media&token=66f5c46a-316f-4887-b7fc-d24ffb3554f4" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
           <div className="social-buttons mt-4">
             <a
               href="https://www.instagram.com/technosapience2.0/"
@@ -74,12 +76,22 @@ function ProjectDetails(props) {
             </a>
           </div>
           <h2 className="mt-4 text-dark popular-gadgets-title">Trending News</h2>
-          <div className="popular-gadgets"></div>
-          <div className="popular-gadgets"></div>
+          <div className="popular-gadgets">
+            <img src="https://pbs.twimg.com/profile_images/1046144573934903296/bxIBeVHq.jpg" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
+          <div className="popular-gadgets">
+            <img src="https://www.rionegro.com.ar/wp-content/uploads/2019/04/Imagen-SIMPOSIUM.jpg" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
           <h2 className="mt-4 text-dark popular-gadgets-title">Popular Gadgets</h2>          
-          <div className="popular-gadgets"></div>
-          <div className="popular-gadgets"></div>
-          <div className="anuncio text-dark">SideBar</div>
+          <div className="popular-gadgets">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU60Fjnmy9hrG-LPSlM_IQXVsxCWu8MjOdXg&usqp=CAU" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
+          <div className="popular-gadgets">
+            <img src="https://chinanews.media/media/2020/05/tech.jpg" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
+          <div className="anuncio text-dark">
+            <img src="https://cutewallpaper.org/21/vertical-wallpapers-high-resolution/1242x2208-px-Portrait-Display-vertical-High-Quality-.jpg" alt="" style={{width: "100%", height: "100%"}}/>
+          </div>
           <div className="social-buttons mt-4">
             <a
               href="https://www.instagram.com/technosapience2.0/"

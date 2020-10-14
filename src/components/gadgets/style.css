@@ -26,9 +26,7 @@
     width: 100%;
     height: 250px;
 }
-.gadgets-sidebar {
-    background-color: rgb(240, 140, 74);
-}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
     .gadgetview-img {
         height: 250px;
