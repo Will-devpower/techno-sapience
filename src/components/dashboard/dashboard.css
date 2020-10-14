@@ -27,6 +27,7 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
   /* Styles */
   .main-container {
+    width: 98% !important;
     margin-top: -50px; 
     padding-right: 30px !important;
     padding-left: 30px !important;

@@ -44,5 +44,7 @@
   }
   .news-view {
     margin-top: -60px;
+    margin-left: 50px;
+    width: 95%;
   }
 }
