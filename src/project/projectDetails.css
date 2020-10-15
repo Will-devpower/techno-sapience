@@ -53,12 +53,18 @@
   text-align: ;
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
-  /* Styles */
+@media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
   .sidebar {
     display: block;
   }
+  .sm-div {    
+    flex-direction: row;
+    width: 85%;  
+    margin: auto !important;    
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {  /* Styles */  
 
   .post-detail {
     padding: 0 100px;
@@ -114,9 +120,5 @@
   .lg-paragraph {
     padding: 0 10px;
   }
-  .sm-div {    
-    flex-direction: row;
-    width: 85%;  
-    margin: auto !important;    
-  }
+  
 }

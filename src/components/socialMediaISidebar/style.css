@@ -1,7 +1,10 @@
 .smedia-nav {
     display: none;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
+  
+}
+@media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
     .smedia-nav {
         display: block;
         position: fixed;
