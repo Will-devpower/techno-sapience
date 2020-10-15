@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import './style.css';
 
 const SocialMediaSidebar = () => {
@@ -31,7 +30,7 @@ const SocialMediaSidebar = () => {
           </a>
         </li>
         <li>
-          <a href="/" className="smedia-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://tiktok.com/@technosapience" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-tiktok"></i>
             <span>Youtube</span>
           </a>
