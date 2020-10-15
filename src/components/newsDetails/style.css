@@ -13,7 +13,12 @@
 .newsads-img {
     width: 100%;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+
+@media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
+     
+  }
+
+@media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
     .single-new-main {
         margin-top: -60px;
         margin-right: 20px;

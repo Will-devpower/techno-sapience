@@ -37,7 +37,7 @@ function ProjectDetails(props) {
 
         {/* SideBar Starts here */}
 
-        <div className="col-12 col-md-4 sidebar">
+        <div className="col-12 col-md-4 col-lg-4 sidebar">
           <div className="mt-3 anuncio text-dark">
             <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/RocketBanner2.jpg?alt=media&token=66f5c46a-316f-4887-b7fc-d24ffb3554f4" alt="" style={{width: "100%", height: "100%"}}/>
           </div>

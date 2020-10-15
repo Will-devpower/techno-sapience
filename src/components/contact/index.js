@@ -34,11 +34,11 @@ function ContactPage(props) {
       <div className="row">
         <div className="col-md-5 pt-4 contact-right-side">
           <h3>¿Quienes Somos?</h3>
-          <p>
+          <p className="contact-description">
             TechnoSapience es un sitio web divulgativo que recopila informacion relacionada al mundo de la ciencia y la tecnologia. Los derechos de autor de todas nuestras publicaciones pertenecen a terceros y como tal su valor debe ser reconocido a sus propietarios.
           </p>
           <h3>Nuestro Objetivo</h3>
-          <p>
+          <p className="contact-description">
             Nuestro objetivo es ofercer un sitio web amigable donde puedas encontrar en un solo lugar informacion sobre todos aquellos Gadgets y avances cientificos que estan cambiando al mundo.
           </p>
           <h3>Apoyanos</h3>

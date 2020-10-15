@@ -56,16 +56,32 @@
 @media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
   .sidebar {
     display: block;
-  }
+    padding-left: 0 !important;
+    width: 100%;
+  }  
   .sm-div {    
     flex-direction: row;
-    width: 85%;  
+    width: 100%;  
     margin: auto !important;    
+  }
+  .social-buttons {
+    width: 100%;
+  }
+  .post-small-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .sm-paragraph {
+    font-size: 0.8rem;
   }
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {  /* Styles */  
-
+  .sidebar {
+    display: block;
+    padding-left: 0 !important;
+  }
   .post-detail {
     padding: 0 100px;
     margin-top: -60px;
@@ -119,6 +135,11 @@
   }
   .lg-paragraph {
     padding: 0 10px;
+  }
+  .sm-div {    
+    flex-direction: row;
+    width: 85%;  
+    margin: auto !important;    
   }
   
 }

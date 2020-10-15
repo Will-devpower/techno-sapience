@@ -38,7 +38,16 @@
   .contact-right-side {
     display: none;
   }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+  @media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
+    .contact-right-side {
+      display: block;
+      padding-left: 100px !important;
+    }
+    .contact-description {
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
     .contact-detail {
       margin-top: -50px;         
       }

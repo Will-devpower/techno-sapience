@@ -30,7 +30,23 @@
     padding-right: 4px !important;
     padding-left: 4px !important;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+
+@media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
+  .popular-gadgets-title {
+      font-size: 1rem;
+      margin-top: 10px;
+  }
+  .news-right-sidebar,
+  .news-left-sidebar {
+    display: block;
+  }
+  .news-view {
+    margin: auto;  
+    width: 95%;
+  }  
+}
+
+@media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
   .news-right-sidebar,
   .news-left-sidebar {
     display: block;
