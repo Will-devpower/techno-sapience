@@ -7,40 +7,34 @@ const SocialMediaSidebar = () => {
     <nav className="smedia-nav">
       <ul className="smedia-ul">
         <li>
-          <Link to="/" className="smedia-link">
+          <a href="https://www.facebook.com/TechnoSapience-106380507862357" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i>
             <span>Facebook</span>
-          </Link>
-        </li>
+          </a>
+        </li>        
         <li>
-          <Link to="/" className="smedia-link">
-            <i className="fab fa-twitter"></i>
-            <span>Twitter</span>
-          </Link >
-        </li>
-        <li>
-          <Link to="/" className="smedia-link">
+          <a href="https://instagram.com/technosapience2.0?igshid=13m00jk4wz1m9" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
             <span>Instagram</span>
-          </Link >
-        </li>
+          </a >
+        </li>        
         <li>
-          <Link to="/" className="smedia-link">
-            <i className="fab fa-linkedin-in"></i>
-            <span>Linkedin</span>
-          </Link >
-        </li>
-        <li>
-          <Link to="/" className="smedia-link">
+          <a href="https://github.com/RWill-Dev/techno-sapience" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
             <span>Github</span>
-          </Link >
+          </a>
         </li>
         <li>
-          <Link to="/" className="smedia-link">
+          <a href="https://youtube.com/techno-sapience" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-youtube"></i>
             <span>Youtube</span>
-          </Link >
+          </a>
+        </li>
+        <li>
+          <a href="/" className="smedia-link" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-tiktok"></i>
+            <span>Youtube</span>
+          </a>
         </li>
       </ul>
     </nav>

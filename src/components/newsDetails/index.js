@@ -7,7 +7,7 @@ import "./style.css";
 const NewsDetails = (props) => {
   console.log(props);
   const { singleNew } = props;
-  
+
   if (singleNew) {
     return (
       <div className="container-fluid single-new-main p-2">
@@ -43,7 +43,22 @@ const NewsDetails = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 singleNew-sidebar bg-secondary"></div>
+          <div className="col-md-3 singleNew-sidebar">
+            <div className="anuncio text-dark">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/RocketBanner2.jpg?alt=media&token=66f5c46a-316f-4887-b7fc-d24ffb3554f4"
+                alt=""
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+            <div className="popular-gadgets mt-3">
+              <img
+                src="https://pbs.twimg.com/profile_images/1046144573934903296/bxIBeVHq.jpg"
+                alt=""
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

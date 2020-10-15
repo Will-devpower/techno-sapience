@@ -11,7 +11,8 @@ const NewsComponent = (props) => {
     <div className="conatiner-fluid news-view pt-2 pb-2">
       <div className="row">
         <div className="col-md-2 pr-0 news-right-sidebar">
-          <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/TS%20Vertical%20banner.jpg?alt=media&token=ee79d8fb-11c1-4b36-a35d-66f7ac0df376" alt="" className="newsidebarimg"/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/RocketBanner2.jpg?alt=media&token=66f5c46a-316f-4887-b7fc-d24ffb3554f4" alt="" className="newsidebarimg"/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/RocketBanner2.jpg?alt=media&token=66f5c46a-316f-4887-b7fc-d24ffb3554f4" alt="" className="newsidebarimg mt-3"/>
         </div>
         <div className="col-md-8">
           <div className="row news-main-row">
@@ -33,7 +34,8 @@ const NewsComponent = (props) => {
           </div>
         </div>
         <div className="col-md-2 pl-0 news-left-sidebar">
-        <img src="https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/TS%20Vertical%20banner.jpg?alt=media&token=ee79d8fb-11c1-4b36-a35d-66f7ac0df376" alt="" className="newsidebarimg"/>
+        <img src="https://cutewallpaper.org/21/vertical-wallpapers-high-resolution/1242x2208-px-Portrait-Display-vertical-High-Quality-.jpg" alt="" className="newsidebarimg"/>
+        <img src="https://cutewallpaper.org/21/vertical-wallpapers-high-resolution/1242x2208-px-Portrait-Display-vertical-High-Quality-.jpg" alt="" className="newsidebarimg mt-3"/>
         </div>
       </div>
     </div>
