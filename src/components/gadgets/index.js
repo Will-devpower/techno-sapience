@@ -34,7 +34,7 @@ function GadgetsPage(props) {
           </div>
         </div>
         <div className="col-12 col-md-3 gadgets-sidebar">
-        <h2 className="text-dark text-center popular-gadgets-title">Trending News</h2>
+        <h2 className="text-dark text-center popular-gadgets-title">Noticias Populares</h2>
           <div className="popular-gadgets">
             <img src="https://pbs.twimg.com/profile_images/1046144573934903296/bxIBeVHq.jpg" alt="" style={{width: "100%", height: "100%"}}/>
           </div>
