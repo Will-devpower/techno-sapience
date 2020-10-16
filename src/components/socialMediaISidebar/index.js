@@ -32,7 +32,7 @@ const SocialMediaSidebar = () => {
         <li>
           <a href="https://tiktok.com/@technosapience" className="smedia-link" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-tiktok"></i>
-            <span>Youtube</span>
+            <span>TikTok</span>
           </a>
         </li>
       </ul>
