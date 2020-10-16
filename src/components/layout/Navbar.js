@@ -9,8 +9,7 @@ const Navbar = (props) => {
   const { auth, profile } = props;
   const initials = profile.initials;
   return (
-    <div className="row">
-      <div className="col-12">
+    
         <nav className="navbar navbar-expand-lg my-navbar bg-primary">
           <Link className="my-logo" to="/">
             <img
@@ -47,8 +46,7 @@ const Navbar = (props) => {
             </div>
           )}
         </nav>
-      </div>
-    </div>
+      
   );
 };
 

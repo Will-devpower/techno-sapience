@@ -25,6 +25,7 @@
 
 @media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
   .main-container {
+    overflow: hidden;
     width: 96% !important;
     padding-right: 30px !important;   
     padding-bottom: 0;
@@ -54,11 +55,11 @@
 @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
   /* Styles */
   .main-container {
+    overflow: hidden;
     width: 98% !important;
-    margin-top: -50px; 
-    padding-right: 30px !important;
-    padding-left: 45px !important;
-    padding-bottom: 30px;
+    margin-top: 5px;
+    padding-left: 50px !important;
+    padding-bottom: 10px;
   }
   .large-content,
   .small-content {

@@ -20,7 +20,6 @@
 
 @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
     .single-new-main {
-        margin-top: -60px;
         margin-right: 20px;
         width: 94% !important;
     }

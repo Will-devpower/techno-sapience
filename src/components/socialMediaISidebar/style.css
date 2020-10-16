@@ -6,6 +6,7 @@
 }
 @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
     .smedia-nav {
+        z-index: 10;
         display: block;
         position: fixed;
         width: 45px;

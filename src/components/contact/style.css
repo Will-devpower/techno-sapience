@@ -2,7 +2,8 @@
     color: #000;
     font-family: Share Tech, sans-serif;
     text-align: center;
-    padding-left: 50px;  
+    padding-left: 50px;
+    overflow: hidden;  
   }
   .contact-form {
     width: 80% !important;
@@ -48,9 +49,7 @@
     }
   }
   @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
-    .contact-detail {
-      margin-top: -50px;         
-      }
+    
     .contact-right-side {
       display: block;
       padding-left: 100px !important;
