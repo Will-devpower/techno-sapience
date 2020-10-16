@@ -75,14 +75,14 @@ function ProjectDetails(props) {
               <i className="fab fa-tiktok"></i>
             </a>
           </div>
-          <h2 className="mt-4 text-dark popular-gadgets-title">Trending News</h2>
+          <h2 className="mt-4 text-dark popular-gadgets-title">Noticias Populares</h2>
           <div className="popular-gadgets">
             <img src="https://pbs.twimg.com/profile_images/1046144573934903296/bxIBeVHq.jpg" alt="" style={{width: "100%", height: "100%"}}/>
           </div>
           <div className="popular-gadgets">
             <img src="https://www.rionegro.com.ar/wp-content/uploads/2019/04/Imagen-SIMPOSIUM.jpg" alt="" style={{width: "100%", height: "100%"}}/>
           </div>
-          <h2 className="mt-4 text-dark popular-gadgets-title">Popular Gadgets</h2>          
+          <h2 className="mt-4 text-dark popular-gadgets-title">Gadgets Populares</h2>          
           <div className="popular-gadgets">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU60Fjnmy9hrG-LPSlM_IQXVsxCWu8MjOdXg&usqp=CAU" alt="" style={{width: "100%", height: "100%"}}/>
           </div>
