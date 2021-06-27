@@ -1,0 +1,58 @@
+.contact-detail {    
+    color: #000;
+    font-family: Share Tech, sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    overflow: hidden;  
+  }
+  .contact-form {
+    width: 80% !important;
+    margin: 10px 0;
+  }
+  .contact-submit {
+    width: 80%;
+  }
+  .contacto {
+    margin-top: 0;
+  }
+  .custom-area {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+  }
+  .social-buttons {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+  }
+  .social-buttons a {
+    width: 35px;
+    height: 35px;
+    font-size: 1.3rem;
+    padding: 2px;
+    text-align: center;
+  }
+  .ig-btn {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  }
+  .contact-right-side {
+    display: none;
+  }
+  @media only screen and (min-device-width: 675px) and (max-device-width: 989px) {
+    .contact-right-side {
+      display: block;
+      padding-left: 100px !important;
+    }
+    .contact-description {
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
+    
+    .contact-right-side {
+      display: block;
+      padding-left: 100px !important;
+    }
+}
+  

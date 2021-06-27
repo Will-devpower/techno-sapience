@@ -1,0 +1,100 @@
+.my-navbar {
+  overflow: hidden;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 6; 
+  min-height: 60px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/net-react-rdx-fireb.appspot.com/o/TS%20BGC%202.png?alt=media&token=3e4ecc87-0e5a-4d73-842d-33c5f5af58ec");
+  background-repeat: no-repeat;
+}
+.my-logo-img {
+  height: 40px;
+  width: 130px;
+}
+nav button {
+  border: none !important;
+}
+nav button i {
+  color: #fff !important;
+  font-size: 1.7rem;
+}
+nav button:focus {
+  border: none !important;
+  outline: none;    
+}
+nav ul {
+  text-align: center;
+}
+.initials {
+  display: none;
+}
+
+.right-div ul li {
+  margin-top: 15px;
+  font-size: 1.5rem;
+} 
+.right-div ul li:hover {
+  background-color: #fff; 
+} 
+.right-div ul li a:hover {
+  color: #2780e3 !important;
+  text-decoration: none;
+}
+.admin {
+  display: none;
+}  
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 990px) and (max-device-width: 1440px) {
+  /* Styles */
+  .my-navbar { 
+    overflow: hidden;  
+    height: 60px;
+    background-size: 100%;  
+  }  
+  .my-logo-img {
+    height: 55px;
+    width: 170px;
+  }
+  .right-div {
+    margin-left: 30px;    
+  }
+  
+  .right-div ul li {
+    margin-right: 25px;
+    margin-top: 0;
+  }
+  .right-div ul li a {
+    /* text-transform: uppercase; */
+    font-size: 1.7rem;    
+  }
+  .right-div ul li:hover {
+    background-color: transparent;     
+  } 
+  .right-div ul li a:hover {
+    color: #fff !important;
+    opacity: 0.9;
+    text-decoration: underline;
+  }
+  .initials {
+    display: block;
+    color: #fff;    
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 40%;
+    margin-top: 10px;
+    font-size: 1.2rem ;
+  }
+  .admin {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .admin a {
+    margin-top: 15px;
+    font-size: 1.4rem;
+  }
+}
+
